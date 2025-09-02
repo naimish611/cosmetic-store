@@ -1,12 +1,47 @@
-# React + Vite
+Project Flow
+Home Page
+Displays cards/carousel for the top 7 cosmetic brands: Annabelle, Covergirl, Dior, Glossier, L'Oreal, Maybelline, Revlon.
+Users can click any brand card/logo to navigate to the selected Brand Page.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Brand Page
+Shows all products for the selected brand via API.
+Products displayed as animated, responsive cards (image, name, price, description).
+Includes a header with the brand name.
 
-Currently, two official plugins are available:
+Filters & Search
+Users can filter products by product type, price range, and rating range.
+Products update instantly as filters change.
+Includes a search bar to lookup products by name.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Loading State & No Results
+A loading spinner is displayed while products fetch.
+If no products match filters, a friendly message appears.
 
-## Expanding the ESLint configuration
+Responsive UI
+Layout adjusts for all screen sizes (mobile, tablet, desktop).
+Cards and controls scale and reflow for best user experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Animations & Polish
+Cards and page sections have smooth entry and hover animations for a modern look.
+Navigation and controls are touch-friendly and accessible.
+
+Tech Stack
+React.js
+Material UI (MUI)
+React Router DOM (routing)
+Axios (API fetching)
+react-slick (carousel)
+
+How to Run
+Clone the repository.
+Install dependencies with npm install.
+Start development server with npm start.
+Access at http://localhost:3000.
+
+Features
+Modern, animated and responsive interface
+Cosmetic brands carousel & click navigation
+Product filtering and search
+API integration with real products
+Loading and error state handling
+Clean, flexible MVP code structure
