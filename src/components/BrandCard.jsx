@@ -53,7 +53,7 @@ const styles = {
   brandName: {
     px: 1,
     fontWeight: 700,
-    fontFamily: "'Montserrat', 'Roboto', sans-serif",
+    fontFamily: "Roboto",
     color: "primary.main",
     letterSpacing: 2,
     fontSize: {

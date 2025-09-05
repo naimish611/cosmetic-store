@@ -12,7 +12,7 @@ const styles = {
     textDecoration: "none",
     fontWeight: 700,
     letterSpacing: 2,
-    fontFamily: "'Montserrat', 'Roboto', sans-serif",
+    fontFamily: "Roboto",
     "&:hover": {
       opacity: 0.8,
       color: "white",
